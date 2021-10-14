@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi&display=swap');
+$fz : 10px;
+$ff : Akronim, cursive;
+$ma : 5px;
+$fs : 10px;
+$mw : 350px;
+$pd : 3px;
+$bd : 4px;
+$dp : 15px;
+
+body {
+      font-family: $ff;    
+    }
+    #header {
+      width: 100%;  
+      height: 100%;  
+ background-color: gray; 
+ margin-bottom: $fz;
+ border-radius: $dp;
+    }
+    #button {
+          animation: animate 1s infinite;
+          transition: .3s;
+      }
+      #button:hover {
+          transform: scale(1.2);
+      }
+      img {
+      max-width: 40%;
+      max-height: 50%; 
+      margin-left: $ma;
+      margin-right: $ma;
+      text-align: left;
+    }
+    .lefttpic {
+    float: left; 
+    margin: $ma;
+   }
+    .rightpic {
+    float: right; 
+    margin: $ma; 
+   }
+    img {
+      max-width: 40%;
+      max-height: 50%; 
+      margin-left: $fz;
+      margin-right: $fz;
+      text-align: right;
+    }
+
+    h1 {
+      font-size: $fz+40px;
+      margin-top: $fz+20px;
+      margin-bottom: $fz+10px; 
+      text-align: center;      
+    }
+
+    h2 {
+      margin-top: $fz+30px;
+      margin-bottom: $fz+10px;
+    }
+
+    p {
+      font-size: $fs+8px;
+      text-justify: auto; 
+    }
+    .ob-sv {
+      width: 100%;
+  max-width: $mw;
+    }
+
+    .form-zvonok{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 $fz+10px;
+  box-sizing: border-box;
+  border:$bd solid black;
+  padding: $pd;
+}
+
+.form-zvonok div{
+  padding: $ma 0;
+}
+
+.send-mail{
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.form-zvonok label,.form-zvonok input{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-zvonok label{
+  margin-bottom: $pd+2px;
+  font-weight: bold;
+}
+
+.form-zvonok input{
+  padding: $fz $dp;
+  margin-top: $fz;
+}
+
+.form-zvonok .send-mail{
+  padding: $dp;
+  margin-top: $fz;
+  background: none;
+  border: none;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  background-color: #000000;
+  cursor: pointer;
+  
+}
+
+.form-zvonok .send-mail:hover{
+  color: #000000;
+  background-color: rgb(250, 250, 250);
+}
